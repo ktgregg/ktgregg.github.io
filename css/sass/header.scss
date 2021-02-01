@@ -4,7 +4,7 @@
 header {
 	&.left {
 		color: #FFF;
-		background: #4A63E7;
+		background: $colorblue;
 		border-radius: 20px;
 		min-height: 620px;
 		max-height: 620px;
@@ -96,7 +96,7 @@ header {
 	}
 	.site-slogan {
 		font-size: 12px;
-		text-transform: none;
+		text-transform: uppercase;
 	}
 	.vertical-menu {
 		font-size: 14px;
@@ -139,7 +139,7 @@ header {
 }
 
 .mobile-header {
-	background: #4A63E7;
+	background: $colorblue;
 	border-radius: 20px;
 	display: none;
 	-webkit-transform: translateX(0);
