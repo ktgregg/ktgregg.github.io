@@ -231,17 +231,17 @@
 .social-icons {
     li {
         &:not(:last-child) {
-            margin-right: .3rem;
+            margin-right: .5rem;
         }
         a {
             color: #FFF;
             background: $colororange;
             border-radius: 50%;
             display: block;
-            height: 30px;
-            line-height: 32px;
+            height: 40px;
+            line-height: 42px;
             text-align: center;
-            width: 30px;
+            width: 40px;
             &:hover {
                 color: $colororange;
                 background: #FFF;
